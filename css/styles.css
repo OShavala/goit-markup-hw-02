@@ -1,5 +1,11 @@
+:root {
+  --first-collor: #e5e5e5;
+  --second-color: #e7e9fc;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
 
 .list {
@@ -32,27 +38,27 @@ body {
 .header-nav-logo {
 }
 .accent-web {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-    align-items: center;
+  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: #4d5ae5;
 }
 
 .accent-studio {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-    align-items: center;
+  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-   color: #2E2F42;
+  color: #2e2f42;
 }
 
 .header-nav-list {
@@ -61,23 +67,22 @@ body {
 .header-nav-item {
 }
 .header-nav-link {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .header-nav-link:hover {
-color: #404BBF;
+  color: #404bbf;
 }
 
 .header-nav-link:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
-
 
 .header-address {
 }
@@ -87,91 +92,83 @@ color: #404BBF;
 }
 
 .header-address-mailto {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-
-.header-address-mailto:hover {
-color: #404BBF;
-}
-
-.header-address-mailto:focus {
-  color: #404BBF;
-}
-
-
-.header-address-tel {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-   
+}
+
+.header-address-mailto:hover {
+  color: #404bbf;
+}
+
+.header-address-mailto:focus {
+  color: #404bbf;
+}
+
+.header-address-tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .header-address-tel:hover {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 .header-address-tel:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
-
-
 
 /* Footer */
 .ftr {
-background-color: #2E2F42 ;
+  background-color: #2e2f42;
 }
-
 
 .ftr-logo {
 }
 
 .ftr-accent-web {
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4D5AE5;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .ftr-accent-studio {
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #F4F4FD;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .ftr-text {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #E7E9FC;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
 }
 
 /* Studio */
-
-
 
 /* Section 1 */
 .hero {
@@ -189,7 +186,7 @@ color: #E7E9FC;
 }
 
 .hero-button {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -197,24 +194,21 @@ color: #E7E9FC;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
- }
+}
 
- .hero-button:hover {
-  color: #FFFFFF;
- }
+.hero-button:hover {
+  color: #ffffff;
+}
 
- .hero-button:focus {
-  color: #FFFFFF;
- }
-
-
+.hero-button:focus {
+  color: #ffffff;
+}
 
 /* Section 2  */
 .feature {
 }
-
 
 .feature-list {
 }
@@ -232,7 +226,6 @@ color: #E7E9FC;
 
 .feature-text {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -244,15 +237,15 @@ color: #E7E9FC;
 .doing {
 }
 .doing-title {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .doing-list {
 }
@@ -263,18 +256,18 @@ color: #2E2F42;
 /* Section 4 */
 
 .team {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 .team-title {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-list {
@@ -284,35 +277,32 @@ color: #2E2F42;
 }
 
 .team-subtitle {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-    text-align: center;
+  text-align: center;
   letter-spacing: 0.02em;
-    color: #2E2F42;
-  }
-
-.team-text {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.02em;
-color: #434455;
+  color: #2e2f42;
 }
 
-
+.team-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
 /* Portfolio */
 
 /* Section 5 */
 
 .components {
-  background-color: #E5E5E5;
+  background-color: var(--first-collor);
 }
 
 .components-btn-list {
@@ -322,7 +312,7 @@ color: #434455;
 }
 
 .components-btn-button {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -331,43 +321,38 @@ color: #434455;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-    color: #4D5AE5;
-    cursor: pointer;
+  color: #4d5ae5;
+  cursor: pointer;
 }
 
 .components-btn-button:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .components-btn-button:focus {
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
-
 
 .components-cards-list {
 }
 .components-cards-item {
 }
 
-
 .components-cards-title {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-
 .components-cards-text {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
