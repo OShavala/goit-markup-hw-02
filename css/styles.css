@@ -36,28 +36,20 @@ body {
 }
 
 .header-nav-logo {
-}
-.accent-web {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.accent-web {
   color: #4d5ae5;
 }
 
 .accent-studio {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 
@@ -67,8 +59,6 @@ body {
 .header-nav-item {
 }
 .header-nav-link {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -92,9 +82,7 @@ body {
 }
 
 .header-address-mailto {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -110,9 +98,7 @@ body {
 }
 
 .header-address-tel {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -133,35 +119,24 @@ body {
 }
 
 .ftr-logo {
-}
-
-.ftr-accent-web {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.ftr-accent-web {
   color: #4d5ae5;
 }
 
 .ftr-accent-studio {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
 
 .ftr-text {
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -175,9 +150,6 @@ body {
   background-color: #2e2f42;
 }
 .hero-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -187,7 +159,6 @@ body {
 
 .hero-button {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -215,8 +186,6 @@ body {
 .feature-item {
 }
 .feature-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -225,8 +194,6 @@ body {
 }
 
 .feature-text {
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -237,9 +204,6 @@ body {
 .doing {
 }
 .doing-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -259,9 +223,6 @@ body {
   background-color: #f4f4fd;
 }
 .team-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -277,8 +238,6 @@ body {
 }
 
 .team-subtitle {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -288,8 +247,6 @@ body {
 }
 
 .team-text {
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -313,7 +270,6 @@ body {
 
 .components-btn-button {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -339,8 +295,6 @@ body {
 }
 
 .components-cards-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -349,8 +303,6 @@ body {
 }
 
 .components-cards-text {
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
